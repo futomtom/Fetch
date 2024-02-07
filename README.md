@@ -2,7 +2,7 @@
 
 |  |  |  |
 | - | - | - |
-| <video src="Screenshots/video.mp4" height="300"> | <img src="Screenshots/screen1.png" height="300"> |  <img src="Screenshots/screen2.gif" height="300">  |
+| <img src="Screenshots/screen3.gif" height="300"> | <img src="Screenshots/screen1.png" height="300"> |  <img src="Screenshots/screen2.png" height="300">  |
 
 
 
