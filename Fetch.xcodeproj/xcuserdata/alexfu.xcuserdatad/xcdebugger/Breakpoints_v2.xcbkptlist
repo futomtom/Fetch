@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "27B1BD5F-DEDB-4CAA-B8FD-91FA04FB1566"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44313B29-7228-4C52-9A28-AB2CE901C76A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fetch/ViewModel/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "fetch(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "44313B29-7228-4C52-9A28-AB2CE901C76A - a9f974414dbabf80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Fetch.DetailViewModel.fetch(id: Swift.String) async throws -&gt; ()"
+                  moduleName = "Fetch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexfu/MyCode/Fetch/Fetch/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "44313B29-7228-4C52-9A28-AB2CE901C76A - 7908514fd2217636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Fetch.DetailViewModel.fetch(id: Swift.String) async throws -&gt; ()"
+                  moduleName = "Fetch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexfu/MyCode/Fetch/Fetch/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "44313B29-7228-4C52-9A28-AB2CE901C76A - d8bc14c7cc997d82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Fetch.DetailViewModel.fetch(id: Swift.String) async throws -&gt; ()"
+                  moduleName = "Fetch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexfu/MyCode/Fetch/Fetch/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "44313B29-7228-4C52-9A28-AB2CE901C76A - 8ec4458b0a4d928d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for Fetch.DetailViewModel.fetch(id: Swift.String) async throws -&gt; ()"
+                  moduleName = "Fetch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexfu/MyCode/Fetch/Fetch/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "44313B29-7228-4C52-9A28-AB2CE901C76A - a9f974414dbabf80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Fetch.DetailViewModel.fetch(id: Swift.String) async throws -&gt; ()"
+                  moduleName = "Fetch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexfu/MyCode/Fetch/Fetch/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6705F69A-83DD-4F06-BA7E-A4A057F68087"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fetch/Network/MockClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getJSONPath(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6705F69A-83DD-4F06-BA7E-A4A057F68087 - 931693230be23a9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fetch.MockClient.getJSONPath(Fetch.EndPoint) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Fetch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexfu/MyCode/Fetch/Fetch/Network/MockClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "724">
+               </Location>
+               <Location
+                  uuid = "6705F69A-83DD-4F06-BA7E-A4A057F68087 - 931693230be23abb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fetch.MockClient.getJSONPath(Fetch.EndPoint) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Fetch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexfu/MyCode/Fetch/Fetch/Network/MockClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "388">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5B155A3-D11D-44DC-993F-7AA00D11FE29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fetch/ViewModel/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetch(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B32CC1E-0C76-488F-B0C4-E9D883AA50BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fetch/Model/DessertDetail.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "mock"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "395CEDD5-CBE7-4EBF-BE17-94115AC992B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fetch/Model/DessertDetail.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "mock"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
