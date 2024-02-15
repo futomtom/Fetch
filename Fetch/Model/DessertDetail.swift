@@ -67,7 +67,7 @@ struct DessertDetail: Decodable {
 
         for i in 1 ... 20 {
             let ingredient = mirror.children.first { $0.label == "strIngredient\(i)" }?.value as? String ?? ""
-            var measure = mirror.children.first(where: { $0.label == "strMeasure\(i)" })?.value as? String ?? ""
+            let measure = mirror.children.first(where: { $0.label == "strMeasure\(i)" })?.value as? String ?? ""
 
             guard !ingredient.isEmpty else {
                 continue
@@ -143,12 +143,6 @@ extension DessertDetail {
             return nil
         }
 
-        do {
-            let dessertDetail = try JSONDecoder().decode(DessertDetail.self, from: jsonData)
-            return dessertDetail
-        } catch {
-            print("Error decoding JSON: \(error)")
-        }
-        return nil
+        return try? JSONDecoder().decode(DessertDetail.self, from: jsonData)
     }
 }

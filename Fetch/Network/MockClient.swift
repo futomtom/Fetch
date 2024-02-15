@@ -8,14 +8,9 @@ struct MockClient: ClientProtocol {
             throw CustomError.invalidServerResponse
         }
 
-        do {
-            let data = try Data(contentsOf: URL(fileURLWithPath: path))
-            let response = try JSONDecoder().decode(T.self, from: data)
-            return response
-        } catch {
-            print("🙂", error)
-            throw CustomError.invalidServerResponse
-        }
+        let data = try Data(contentsOf: URL(fileURLWithPath: path))
+        let response = try JSONDecoder().decode(T.self, from: data)
+        return response
     }
 
     private func getJSONPath(_ endPoint: EndPoint) -> String? {
