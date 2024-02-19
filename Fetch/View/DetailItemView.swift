@@ -11,6 +11,7 @@ struct DetailItemView: View {
                 Text(detail.strMeal)
                     .headerStyling()
 
+
                 AsyncImage(url: detail.imageURL, transaction: .init(animation: .easeInOut)) { phase in
                     if let image = phase.image {
                         image
@@ -22,6 +23,9 @@ struct DetailItemView: View {
                     }
                 }
                 .frame(minHeight: 50)
+                .onTapGesture {
+                    
+                }
 
                 Text("Instructions:")
                     .headerStyling()

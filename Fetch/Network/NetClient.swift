@@ -19,7 +19,7 @@ struct NetClient: ClientProtocol {
 }
 
 extension NetClient {
-    func get<T: Decodable>(from url: URL) async throws -> T {
+    private func get<T: Decodable>(from url: URL) async throws -> T {
         do {
             let (data, response) = try await URLSession.shared.data(from: url)
 

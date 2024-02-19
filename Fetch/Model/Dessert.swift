@@ -6,6 +6,7 @@ struct Dessert: Codable, Identifiable, Comparable {
     let id: String
     let name: String
     let thumbnailURL: String
+    var liked: Bool = false 
 
     enum CodingKeys: String, CodingKey {
         case id = "idMeal"

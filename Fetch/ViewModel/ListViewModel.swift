@@ -7,6 +7,7 @@ import SwiftUI
 final class ListViewModel: ObservableObject {
     @Published var loadingStatus: LoadingStatus = .loading
     @Published var desserts: [Dessert] = []
+    
 
     let client: ClientProtocol
 
