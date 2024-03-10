@@ -14,6 +14,7 @@
 		8296C2D52B72ED9C00C8143C /* DetailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8296C2D42B72ED9C00C8143C /* DetailItemView.swift */; };
 		8296C2D72B72FFBB00C8143C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8296C2D62B72FFBB00C8143C /* Ingredient.swift */; };
 		8296C2D92B72FFFB00C8143C /* Text+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8296C2D82B72FFFB00C8143C /* Text+.swift */; };
+		82EB09562B9D7D9400686A17 /* FetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB09552B9D7D9400686A17 /* FetchUITests.swift */; };
 		82FD535F2B71EB2A00813FEF /* FetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD535E2B71EB2A00813FEF /* FetchApp.swift */; };
 		82FD53612B71EB2A00813FEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD53602B71EB2A00813FEF /* ContentView.swift */; };
 		82FD53632B71EB2C00813FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FD53622B71EB2C00813FEF /* Assets.xcassets */; };
@@ -30,6 +31,16 @@
 		82FD53842B721CF000813FEF /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD53832B721CF000813FEF /* Response.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		82EB09592B9D7D9400686A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FD53532B71EB2A00813FEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FD535A2B71EB2A00813FEF;
+			remoteInfo = Fetch;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		8296C2C82B72A74D00C8143C /* dessert.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dessert.json; sourceTree = "<group>"; };
 		8296C2CB2B72D05400C8143C /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
@@ -38,6 +49,8 @@
 		8296C2D42B72ED9C00C8143C /* DetailItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemView.swift; sourceTree = "<group>"; };
 		8296C2D62B72FFBB00C8143C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		8296C2D82B72FFFB00C8143C /* Text+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+.swift"; sourceTree = "<group>"; };
+		82EB09532B9D7D9300686A17 /* FetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EB09552B9D7D9400686A17 /* FetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUITests.swift; sourceTree = "<group>"; };
 		82FD535B2B71EB2A00813FEF /* Fetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FD535E2B71EB2A00813FEF /* FetchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchApp.swift; sourceTree = "<group>"; };
 		82FD53602B71EB2A00813FEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +70,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		82EB09502B9D7D9300686A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82FD53582B71EB2A00813FEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,10 +105,19 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		82EB09542B9D7D9300686A17 /* FetchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82EB09552B9D7D9400686A17 /* FetchUITests.swift */,
+			);
+			path = FetchUITests;
+			sourceTree = "<group>";
+		};
 		82FD53522B71EB2A00813FEF = {
 			isa = PBXGroup;
 			children = (
 				82FD535D2B71EB2A00813FEF /* Fetch */,
+				82EB09542B9D7D9300686A17 /* FetchUITests */,
 				82FD535C2B71EB2A00813FEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				82FD535B2B71EB2A00813FEF /* Fetch.app */,
+				82EB09532B9D7D9300686A17 /* FetchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +201,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		82EB09522B9D7D9300686A17 /* FetchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EB095D2B9D7D9400686A17 /* Build configuration list for PBXNativeTarget "FetchUITests" */;
+			buildPhases = (
+				82EB094F2B9D7D9300686A17 /* Sources */,
+				82EB09502B9D7D9300686A17 /* Frameworks */,
+				82EB09512B9D7D9300686A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EB095A2B9D7D9400686A17 /* PBXTargetDependency */,
+			);
+			name = FetchUITests;
+			productName = FetchUITests;
+			productReference = 82EB09532B9D7D9300686A17 /* FetchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		82FD535A2B71EB2A00813FEF /* Fetch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82FD536A2B71EB2C00813FEF /* Build configuration list for PBXNativeTarget "Fetch" */;
@@ -198,6 +246,10 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					82EB09522B9D7D9300686A17 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 82FD535A2B71EB2A00813FEF;
+					};
 					82FD535A2B71EB2A00813FEF = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -217,11 +269,19 @@
 			projectRoot = "";
 			targets = (
 				82FD535A2B71EB2A00813FEF /* Fetch */,
+				82EB09522B9D7D9300686A17 /* FetchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		82EB09512B9D7D9300686A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82FD53592B71EB2A00813FEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +296,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		82EB094F2B9D7D9300686A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EB09562B9D7D9400686A17 /* FetchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82FD53572B71EB2A00813FEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,7 +330,52 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		82EB095A2B9D7D9400686A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FD535A2B71EB2A00813FEF /* Fetch */;
+			targetProxy = 82EB09592B9D7D9400686A17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		82EB095B2B9D7D9400686A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tom.FetchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fetch;
+			};
+			name = Debug;
+		};
+		82EB095C2B9D7D9400686A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tom.FetchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fetch;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		82FD53682B71EB2C00813FEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -452,6 +565,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		82EB095D2B9D7D9400686A17 /* Build configuration list for PBXNativeTarget "FetchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EB095B2B9D7D9400686A17 /* Debug */,
+				82EB095C2B9D7D9400686A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		82FD53562B71EB2A00813FEF /* Build configuration list for PBXProject "Fetch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

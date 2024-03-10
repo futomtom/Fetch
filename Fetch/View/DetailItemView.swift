@@ -8,8 +8,8 @@ struct DetailItemView: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack {
-                Text(detail.strMeal)
-                    .headerStyling()
+//                Text(detail.strMeal)
+//                    .headerStyling()
 
 
                 AsyncImage(url: detail.imageURL, transaction: .init(animation: .easeInOut)) { phase in
